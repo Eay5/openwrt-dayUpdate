@@ -4,7 +4,7 @@
  # @Date: 2022-01-13 21:39:40
  # @LastEditors: eay
  # @Autor: Seven
- # @LastEditTime: 2022-03-05 14:52:04
+ # @LastEditTime: 2022-03-05 14:53:58
  # @Description: 
 ### 
 #
@@ -22,7 +22,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git small8 https://github.com/kenzok78/small-package' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
