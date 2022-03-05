@@ -19,6 +19,6 @@ project-openwrt固件源码地址：[https://github.com/project-openwrt/openwrt]
 ## 插件来源：
 kenzok8插件合集 ：[https://github.com/kenzok8/small-package](https://github.com/kenzok8/small-package)
 
-kenzok8插件合集 ：[https://github.com/xiaorouji/openwrt-passwall.git](https://github.com/xiaorouji/openwrt-passwall.git)
+xiaorouji插件 ：[https://github.com/xiaorouji/openwrt-passwall.git](https://github.com/xiaorouji/openwrt-passwall.git)
 
 由衷感谢所有为openwrt无私奉献的大佬们。
