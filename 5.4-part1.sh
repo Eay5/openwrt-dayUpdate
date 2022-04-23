@@ -26,4 +26,4 @@ sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.d
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku
