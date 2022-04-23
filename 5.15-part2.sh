@@ -1,4 +1,4 @@
-#!/bin/bash
+##!/bin/bash
 ###
  # @Author: eay
  # @Date: 2022-01-13 14:44:27
@@ -26,8 +26,8 @@ sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' ./target/linux/x86/Make
 sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' ./package/lean/default-settings/files/zzz-default-settings
 #4.an-theme
 #取消bootstrap为默认主题：
-# sed -i 's/luci-theme-bootstrap/luci-theme-argon-jerrykuku/g' ./feeds/luci/collections/luci/Makefile
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon-jerrykuku/g' ./feeds/luci/collections/luci/Makefile
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 #name
 sed -i "s/hostname='OpenWrt'/hostname='OpenWrt-eay'/g" ./package/base-files/files/bin/config_generate
 
